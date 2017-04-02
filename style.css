@@ -1,0 +1,265 @@
+body {
+	padding: 0; 
+	margin: 0; 
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.my-flex-container{
+			  display: flex;
+			  flex-wrap: wrap;
+
+			  
+			}
+
+.wrap-menu {
+     position: fixed;
+	width: 100%;
+}
+.menu {
+		position: fixed;
+	background-color: #006400;
+	width: 100%;
+}
+.menu > ul {
+	
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu > ul li {
+
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	align:left;
+	line-height: 50px;
+	background: #006400;
+    font-size: 18px;
+    color:#ffffff;
+
+}
+.menu > ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.menu > ul li:hover {
+	background: #32a60c;
+	cursor: pointer;
+}
+
+.h{
+padding-top: 130px;
+}
+
+
+.divabout{
+	float: left;
+	width: 45%;
+	padding-left:380px; 
+	
+}
+
+
+.glav{
+	background-image: url(2030.jpg); 
+	background-repeat:no-repeat;
+	background-position:-40px -160px;
+	width: 100%;
+	height: 550px;
+	color:#ffffff;
+
+}
+.price{
+	width: 100%;
+	background-color: #32a60c;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+.pp{
+	font-size: 20pt; 
+	color:#228B22;
+}
+
+.box div{
+	
+	display:inline-block;
+	align-content: center;
+	width: 200px;
+}
+.zagol1{
+	color:#ffffff;
+
+}
+.ramka{
+	border: 4px black;
+	background-color: #ffffff;
+	padding-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	 border-radius: 4px;
+	  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.aboutfoto{
+	 display:inline-block;
+	 padding-bottom: 27px;
+
+}
+.mydiv{
+width:400px;
+	 height:268px;	
+}
+.foto{
+	margin-top:100px;
+
+
+}
+
+.aboutimg {
+ display:inline-block;
+
+}
+.aboutimg img {
+ display:block;
+}
+.s1{
+	position: relative;
+	bottom:  85px;
+}
+.i1{position: relative;
+
+}
+.s2{
+	position: relative;
+	bottom:  85px;
+}
+.i2{position: relative;
+
+}
+.zagol{
+	color: #006400;
+}
+.about{	
+padding-bottom: 50px;
+padding-top: 20px;
+}
+.ourpets{
+	width: 100%;
+	padding-bottom: 40px;
+	padding-top: 30px;
+	
+	 
+}
+.podrobne{
+	text-decoration: none;
+	cursor: pointer;
+	background: #32a60c;
+    border-radius: 10 10px;
+    color: #ffffff;
+    padding: 13px;
+     border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+
+    
+}
+
+.contact{
+		background-color:#006400; 
+		width: 100%;
+		color: #ffffff;	
+		margin-top: 40px;
+		padding-bottom: 15px;
+	    padding-top: 20px;	
+	}
+
+.divright{
+	text-align: right;
+	padding-right: 80px;
+}
+.divleft{
+	text-align: left;
+	width: 45%;
+	padding-left:80px; 
+	
+}
+.text{
+    width: 88%;
+	
+	margin-top: 30px;
+	text-align: center;
+
+
+}
+@media (max-width: 1250px){
+	.divabout{
+	
+	width: 52%;
+	padding-left:270px; 
+	
+}
+@media (max-width: 990px){
+	.divabout{
+	
+	width: 75%;
+	padding-left:100px; 
+	
+}
+}
+
+@media (max-width:  600px){
+	.divabout{
+	
+	width: 90%;
+	padding-left:30px; 
+	
+}
+.about{
+	width: 90%;
+	padding-left:30px; 
+}
+
+.divleft{
+	padding-left:40px;
+	text-align: left;
+	width: 80%;
+}
+.divright{
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+
+.ramka{
+	
+	padding-top: 20px;
+	margin-left: 23px;
+	margin-right: 23px;
+	margin-bottom: 10px;
+	 
+}
+.glav{
+	
+	background-position:-300px -160px;
+	height: 550px;
+
+}
+.s1{
+	top: 22px;
+	right: 20px;
+}
+.i1{right: 24px;
+
+}
+.s2{
+	bottom: 182px;
+	left: 20px;
+}
+.i2{
+	left: 22px;
+}
+
+
+
+}
